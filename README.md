@@ -13,6 +13,8 @@ It will give the Pi the following functionalities:
 
 This repo is work in progress.
 
+If you do not have a GitHub user set up on your Pi, clone this repo with HTTPS and not SSH.
+
 ## A digital photo frame
 
 Simple scripts to use the Pi as a digital photo frame. Photos will be uploaded via `scp`.
