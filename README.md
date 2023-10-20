@@ -19,7 +19,6 @@ If you do not have a GitHub user set up on your Pi, clone this repo with HTTPS a
 
 Simple scripts to use the Pi as a digital photo frame. Photos will be uploaded via `scp`.
 
-
 ## Docker Compose
 
 According to the [Docker documentation on installing the Docker Engine on Raspberry Pi](https://docs.docker.com/engine/install/raspberry-pi-os/), we need to [follow the instructions for Debian](https://docs.docker.com/engine/install/debian/).
