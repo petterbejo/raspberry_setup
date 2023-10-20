@@ -1,4 +1,4 @@
 #!/bin/bash
-sh $dir/install_docker.sh
-sh $dir/post_install.sh
-sh $dir/install_compose.sh
+sh docker/install_docker.sh
+sh docker/post_install.sh
+sh docker/install_compose.sh
