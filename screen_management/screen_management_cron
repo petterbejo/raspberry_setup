@@ -1,6 +1,6 @@
 # Screen on from Monday to Friday between 1600 and 2200:
-33 9 * * 1-5 $HOME/raspberry_setup/screen_management/switch_on.sh
-34 9 * * 1-5 $HOME/raspberry_setup/screen_management/switch_off.sh
+00 16 * * 1-5 $HOME/raspberry_setup/screen_management/switch_on.sh
+00 22 * * 1-5 $HOME/raspberry_setup/screen_management/switch_off.sh
 
 # Screen on on Saturdays from 0900 to 2200 and on Sundays from 1300 to 2200:
 00 9 * * 6 $HOME/raspberry_setup/screen_management/switch_on.sh
