@@ -1,0 +1,9 @@
+# Screen on from Monday to Friday between 1600 and 2200:
+30 9 * * 1-5 echo 1 | sudo tee /sys/class/backlight/10-0045/bl_power
+31 9 * * 1-5 echo 0 | sudo tee /sys/class/backlight/10-0045/bl_power
+
+# Screen on on Saturdays from 0900 to 2200 and on Sundays from 1300 to 2200:
+00 9 * * 6 $HOME/raspberry_setup/screen_management/switch_on.sh
+00 22 * * 6 $HOME/raspberry_setup/screen_management/switch_off.sh
+00 13 * * 0 $HOME/raspberry_setup/screen_management/switch_on.sh
+00 22 * * 0 $HOME/raspberry_setup/screen_management/switch_off.sh

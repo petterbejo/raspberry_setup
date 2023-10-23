@@ -2,7 +2,7 @@
 
 A repo to set up a Raspberry Pi.
 
-Note that since we're installing Docker Compose, you must have a 64-bit capable OS installed. 
+Note that since we're installing Docker Compose, you must have a 64-bit capable OS installed. I use the Raspberry Pi touch display, so some of the commands for the screen management are different from those for HDMI.
 
 It will give the Pi the following functionalities:
 
