@@ -3,7 +3,7 @@
 export VERSION_CODENAME=bookworm # For Docker
 
 # Run the setup:
-directories=("docker" "photo_frame")
+directories=("docker" "photo_frame" "screen_management")
 
 
 for dir in "${directories[@]}"; do
