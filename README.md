@@ -27,6 +27,17 @@ According to the [Docker documentation on installing the Docker Engine on Raspbe
 
 The intent is to keep the Pi on at all times (for the web apps) but only have the screen be on when you're at home and awake.
 
+Note that running setup.sh overwrites the current crontab with the cron job for the screen management in order to avoid appending the crontab each time setup.sh is run.
+
+To append it, something like this should work:
+
+```
+crontab -l > mycron
+cat screen_management/screen_management_cron >> mycron
+crontab mycron
+rm mycron
+```
+
 ## Fan management
 
 Since we don't want to be disturbed unnecessarily by fan noise, the fan will be temperature triggered.
